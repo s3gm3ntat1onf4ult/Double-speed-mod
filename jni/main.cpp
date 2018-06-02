@@ -11,7 +11,7 @@
 class Player
 {
 	public:
-		float getSpeed();
+		float getSpeed() const;
 };
 
 static float (*real_Player$getSpeed)();
